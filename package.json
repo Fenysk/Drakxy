@@ -1,0 +1,17 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Drakxy Protogen",
+  "main": "main.js",
+  "scripts": {
+    "sass" : "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Drakxy",
+  "license": "ISC",
+  "keywords": [
+    "npm",
+    "install",
+    "-g",
+    "sass"
+  ]
+}
