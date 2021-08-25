@@ -1,3 +1,4 @@
+// START - CSS reset //
 html, body, h1, h2, h3, h4, h5, h6, p, a, span, ul, li{
     margin: 0;
     padding: 0;
@@ -7,10 +8,24 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, span, ul, li{
     color: black;
     font-weight: normal;
 }
-// CSS reset
+// END - CSS reset //
+
+
+
+// START - Variables //
+$color__header__background: #444444;
+// END - Variables //
+
 
 html, body{
     height: 100%;
 
     background-color: white;
+}
+
+
+header{
+    height: 200px;
+    
+    background-color: $color__header__background;
 }
