@@ -20,7 +20,7 @@ $color__header__background: #333333;
 html, body{
     height: 100%;
 
-    background-color: gray;
+    background-color: black;
 }
 
 
@@ -103,7 +103,24 @@ header{
         text-align: center;
     }
 
+    .carousel{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        img{
+            height: 200px;
+        }
+    }
+
     p{
         margin-top: 30px;
+    }
+}
+
+footer{
+    padding: 20px;
+    p{
+        text-align: center;
+        color: white;
     }
 }
